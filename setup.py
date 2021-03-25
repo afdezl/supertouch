@@ -5,9 +5,10 @@ with open("README.md", 'r') as f:
 
 setup(
     name='supertouch',
-    py_modules=['supertouch'],
-    version="0.1.1",
+    packages=['supertouch'],
+    version="0.1.2",
     author_email="adrian@luengo.co",
+    url="https://github.com/afdezl/supertouch",
     license="MIT",
     long_description=readme,
     long_description_content_type="text/markdown",
